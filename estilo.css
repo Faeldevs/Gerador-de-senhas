@@ -1,0 +1,163 @@
+*{
+ font-family: Arial, Helvetica, sans-serif; 
+ width: 100%;
+ margin: 0 auto;
+ box-sizing: border-box;
+}
+
+ body{
+    background-color: #2214df;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(assets/banner.jpg);
+    background-repeat: no-repeat;
+ }
+
+ .texto{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+ }
+ 
+ .logo {
+  max-width: 700px;
+  margin-bottom: 100;
+ }
+
+ .container-input{
+ max-width: 400px;
+ margin: 14px 0;
+ }
+
+ .container-input span{
+    color: #fff;
+    font-size: 22px;
+ }
+
+ .slider{
+  -webkit-appearance: none;
+  width: 100%;
+  border-radius: 5px;
+  background: #dfdfdf;
+  height: 14px;
+  outline: none;
+  margin-top: 8px;
+ }
+
+ .button-cta{
+ height: 50px;
+ background-color: rgb(255, 255, 255);
+ border: 0;
+ border-radius: 20px;
+ cursor: pointer;
+ margin-top: 40px;
+ color: rgb(0, 0, 0);
+ font-weight: bold;
+ font-size: 18px;
+     
+}
+
+.button-cta:hover{
+    transition: all 0.5s;
+    background-color: #ffffffd5;
+    color: #0f0f0f;
+    box-shadow: 5px 1px 5px 0 #ffffff;
+}
+
+.button-cta:active{
+    background-color: #400fc7c0;
+    color: #ffffff;
+}
+
+.container-password{
+
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+
+}
+
+.password{
+    height: 60px;
+    background-color: rgba(31, 17, 160, 0.171);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 20em;
+    border: 2px solid #31313177;
+    transition: transform 0.5s;
+
+}
+
+.password:hover{
+ transform; scale(1.05);
+}
+
+.tooltip{
+
+    color: #fff;
+    position: relative;
+    top: 20px;
+    padding: 6px 8px;
+    background: rgb(32, 160, 199);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.hide{
+ display: none;
+}
+
+
+.container-password:hover .tooltip{
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+}
+
+footer {
+    background: linear-gradient(#000000, #616ce0);
+    border-top: solid 2px #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+}
+
+footer ul li{
+    display: incline;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 30px;
+    list-style: none;
+    text-align: center;
+
+}
+ 
+
+   
+    
+    
+
+ 
